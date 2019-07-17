@@ -1,12 +1,13 @@
-import React from "react";
-import Header from "../components/Header";
+import React from 'react';
+import AppShell from './AppShell';
+import EmailBuilder from '../components/EmailBuilder';
 
-const Home = () => {
+function Home() {
   return (
-    <React.Fragment>
-      <Header />
-    </React.Fragment>
+    <AppShell>
+      <EmailBuilder />
+    </AppShell>
   );
-};
+}
 
 export default Home;

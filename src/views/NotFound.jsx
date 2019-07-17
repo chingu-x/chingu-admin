@@ -1,12 +1,9 @@
-import React from "react";
-import Header from "../components/Header";
+import React from 'react';
+import AppShell from './AppShell';
 
 const NotFound = () => (
   <React.Fragment>
-    <Header />
-    <div>
-      Whoops. Not found.
-    </div>
+    <AppShell drawer={false}>Whoops. Not found.</AppShell>
   </React.Fragment>
 );
 
